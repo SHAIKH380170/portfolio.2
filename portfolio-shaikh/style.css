@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Wet+Paint&display=swap');
+
+/*drpodown*/
+.dropdown
+{
+    justify-content: flex-end;
+    margin-left: 90%;
+}
+
+
+
+
+
+
+/*-----NAVBAR----*/
+
+body
+{
+   background-color: transparent;
+}
+
+#logo
+{
+
+    background: transparent;
+    border-radius: 50%;
+    margin-left:48%;
+   
+
+      
+}
+
+#section {
+    text-decoration: none;
+    display:inline-block;
+    align-items:center;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-family: 'Rubik Wet Paint', system-ui;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20PX;
+    
+
+}
+ a:hover{
+    box-shadow: 3px 6px 9px navy;
+}
+
+/*about section */
+
+#about
+{
+    
+    display:flex;
+    width: 100%;
+    margin-top: 80px;
+    justify-content: space-around;
+    
+    
+
+}
+
+
+.about img
+{
+    margin-top: 20px;
+    justify-items: left;
+    background: transparent;
+    position: relative;
+    border-radius: 50px;
+}
+
+.about1 p 
+{
+    margin-left: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+    height: 400px;
+}
+
+#name{
+    font-size: 40px;
+    font-family: 'Rubik Wet Paint', system-ui;
+    
+}
+
+#sk
+{
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+/*skills section */
+
+#skills img
+{
+    box-shadow: 3px 9px 18px grey;
+    height: 150px;
+    width: 200px;
+
+    
+}
+
+
+/* PROJECTS */
+.card-body
+{
+    padding: 10px;
+
+
+}
+.card-body button
+{
+    
+    border-radius: 12px;
+    padding: auto;
+    align-content: flex-start;
+    width: auto;
+    margin: auto;
+    
+    font-family: 'Rubik Wet Paint', system-ui;
+    margin-left: 90px;
+    margin-bottom: 20px;
+   
+
+
+}
+.card-body a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: none;
+   
+   
+}
+
+
+
+.card-text {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+/*resume*/
+
+.resume
+{
+    display: flex;
+    box-shadow: none;
+
+}
+.resume a{
+    box-shadow: none;
+}
+
+.downloadr 
+{
+    margin-top: 7vw;
+}
+
+
+.downloadr  button
+{
+    
+    
+    
+    margin-left: 24vw;
+    box-shadow: none;
+    padding: 15px;
+    border: 3px rgb(255, 255, 255) dotted;
+    border-radius: 15px;
+    box-shadow: 6px 12px 24px;
+    background-color: midnightblue;
+    color: beige;
+}
+
+
+
+/* CONTACT&FOOTER*/
+.contact
+{
+    background-color: rgb(83, 91, 88);
+    border: 1px black;
+    width: 50vw;
+    height: 400px;
+    margin-left: 25vw;
+    box-shadow: 13px 15px 20px grey;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+
+
+.footer
+{
+    width: 100%;
+    margin-top:3vw;
+    display: flex;
+    box-shadow: none;
+    font-family: 'Climate Crisis', sans-serif;
+    background-color:grey;
+    height:4vw;
+    justify-content: space-evenly;
+
+
+}
+.footer a:hover 
+{
+    box-shadow: 9px 18px 39px cyan;
+}
+
+
